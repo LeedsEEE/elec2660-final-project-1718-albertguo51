@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		56181FC31FD218AF008B67AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56181FC21FD218AD008B67AA /* CoreLocation.framework */; };
 		56181FC41FD218B1008B67AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56181FC11FD218A6008B67AA /* MapKit.framework */; };
+		56420FF71FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56420FF61FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg */; };
+		56420FF81FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56420FF61FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg */; };
+		56420FF91FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56420FF61FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg */; };
 		5656D48B1FD48F6D001F5B31 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656D48A1FD48F6A001F5B31 /* AddressBook.framework */; };
 		5656D48D1FD48F77001F5B31 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656D48C1FD48F75001F5B31 /* Contacts.framework */; };
 		5656D48F1FD48F88001F5B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656D48E1FD48F84001F5B31 /* UIKit.framework */; };
@@ -56,6 +59,7 @@
 /* Begin PBXFileReference section */
 		56181FC11FD218A6008B67AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		56181FC21FD218AD008B67AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56420FF61FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sasha-instagram-com-sanfrancisco-99540.jpg"; sourceTree = "<group>"; };
 		5656D48A1FD48F6A001F5B31 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		5656D48C1FD48F75001F5B31 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		5656D48E1FD48F84001F5B31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -158,6 +162,7 @@
 				568A02341FBB55E1007E56F6 /* Info.plist */,
 				568A02351FBB55E1007E56F6 /* main.m */,
 				568A02681FBB984E007E56F6 /* jared-erondu-8130.jpg */,
+				56420FF61FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg */,
 				568A026C1FBB9989007E56F6 /* icon.png */,
 				568A026E1FBB9993007E56F6 /* Images-2.xcassets */,
 			);
@@ -308,6 +313,7 @@
 				568A026F1FBB9993007E56F6 /* Images-2.xcassets in Resources */,
 				568A02331FBB55E1007E56F6 /* LaunchScreen.storyboard in Resources */,
 				568A026D1FBB9989007E56F6 /* icon.png in Resources */,
+				56420FF71FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 				568A02691FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */,
 				568A022E1FBB55E1007E56F6 /* Main.storyboard in Resources */,
 			);
@@ -318,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568A026A1FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */,
+				56420FF81FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568A026B1FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */,
+				56420FF91FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFMPCY89RK;
 				INFOPLIST_FILE = "City Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.City-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFMPCY89RK;
 				INFOPLIST_FILE = "City Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.City-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";

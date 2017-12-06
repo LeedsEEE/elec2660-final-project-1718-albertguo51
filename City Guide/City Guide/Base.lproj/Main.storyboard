@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sum-Tj-c66">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sum-Tj-c66">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--City Guide-->
         <scene sceneID="rfd-Xo-Z2z">
             <objects>
                 <viewController id="TCC-OE-j3i" sceneMemberID="viewController">
@@ -18,24 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-9k-JgZ">
-                                <rect key="frame" x="20" y="338" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Explore Your Holiday!"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sasha-instagram-com-sanfrancisco-99540.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vd4-xf-AJo">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXa-xT-mLI">
+                                <rect key="frame" x="102" y="176" width="210" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Explore YOUR Holiday!">
+                                    <color key="titleColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="4V0-1y-3cN" kind="show" id="EBT-ZC-gQf"/>
+                                    <segue destination="4V0-1y-3cN" kind="show" id="l3y-bx-7Af"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Erd-TW-1Ep"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZeM-CB-x3b"/>
+                    <navigationItem key="navigationItem" title="City Guide" id="ZeM-CB-x3b"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQJ-T4-o8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1506" y="94"/>
+            <point key="canvasLocation" x="-1507.2463768115942" y="93.750000000000014"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dUp-2l-HQS">
@@ -53,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="-2359" y="94"/>
         </scene>
-        <!--Table View Controller Places-->
+        <!--The Hot Spots-->
         <scene sceneID="rLG-T2-3zB">
             <objects>
                 <tableViewController id="4V0-1y-3cN" customClass="TableViewControllerPlaces" sceneMemberID="viewController">
@@ -88,7 +94,7 @@
                             <outlet property="delegate" destination="4V0-1y-3cN" id="xOC-fd-EXA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="P45-w6-TZE"/>
+                    <navigationItem key="navigationItem" title="The Hot Spots" id="P45-w6-TZE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="19B-lh-avX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,4 +184,7 @@
             <point key="canvasLocation" x="1118.840579710145" y="93.750000000000014"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sasha-instagram-com-sanfrancisco-99540.jpg" width="4000" height="5000"/>
+    </resources>
 </document>
