@@ -106,6 +106,16 @@
         pl10.openhr = @"Tue - Fri, 12:00 - 22:00; Weekend: 10:00 - 22:00";
         pl10.coordination = CLLocationCoordinate2DMake(34.118407, -118.300422);
         
+        // 11th destination pl11 (Beverly Hills, LA)
+        self.sfplaces = [NSMutableArray array];
+        Places *pl11 = [[Places alloc] init];
+        pl10.name = @"Beverly Hills, LA";
+        pl10.address =@"Beverly Hills, CA 90210";
+        pl10.openhr = @"All day";
+        pl10.coordination = CLLocationCoordinate2DMake(34.073620, -118.400356);
+        
+        
+        
         
         // Add statements to the array in h file
         [self.sfplaces addObject: pl0]; //index -1
@@ -119,6 +129,7 @@
         [self.sfplaces addObject: pl8]; //index 7
         [self.sfplaces addObject: pl9]; //index 8
         [self.sfplaces addObject: pl10]; //index 9
+        [self.sfplaces addObject: pl11]; //index 10
         
         
     }
