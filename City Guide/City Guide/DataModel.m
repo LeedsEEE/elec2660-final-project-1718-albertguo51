@@ -21,7 +21,7 @@
         // 0th destination p0 (LBA)
         self.sfplaces = [NSMutableArray array];
         Places *pl0 = [[Places alloc] init];
-        pl0.name = @"Leeds Bradford (LBA)";
+        pl0.name = @"Leeds Bradford International Airport (LBA)";
         pl0.address =@"Whitehouse Ln, Yeadon, Leeds LS19 7TU";
         pl0.openhr = @"Dec 14 9:20";
         pl0.coordination = CLLocationCoordinate2DMake(53.867943, -1.661531);
