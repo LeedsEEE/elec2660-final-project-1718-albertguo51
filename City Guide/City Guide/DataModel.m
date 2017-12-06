@@ -17,6 +17,15 @@
     if (self) {
         
         // Statements
+        
+        // 0th destination p0 (LBA)
+        self.sfplaces = [NSMutableArray array];
+        Places *pl0 = [[Places alloc] init];
+        pl0.name = @"Leeds Bradford (LBA)";
+        pl0.address =@"Whitehouse Ln, Yeadon, Leeds LS19 7TU";
+        pl0.openhr = @"Dec 14 9:20";
+        pl0.coordination = CLLocationCoordinate2DMake(53.867943, -1.661531);
+        
         // 1st destination pl1 (The hotel in LA, Four Points by Sheraton)
         self.sfplaces = [NSMutableArray array];
         Places *pl1 = [[Places alloc] init];
@@ -24,7 +33,6 @@
         pl1.address =@"9750 Airport Blvd, Los Angeles, CA 90045";
         pl1.openhr = @"Dec 14 15:00 - Dec 15 12:00";
         pl1.coordination = CLLocationCoordinate2DMake(33.948867, -118.385215);
-        
         
         // 2nd destination pl2 (Airbnb: Cozy Twin Beds, Parking included, Owner: Ms Marie)
         self.sfplaces = [NSMutableArray array];
@@ -100,6 +108,7 @@
         
         
         // Add statements to the array in h file
+        [self.sfplaces addObject: pl0]; //index -1
         [self.sfplaces addObject: pl1]; //index 0
         [self.sfplaces addObject: pl2]; //index 1
         [self.sfplaces addObject: pl3]; //index 2
