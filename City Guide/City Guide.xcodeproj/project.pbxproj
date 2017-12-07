@@ -25,7 +25,6 @@
 		568A02691FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568A02681FBB984E007E56F6 /* jared-erondu-8130.jpg */; };
 		568A026A1FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568A02681FBB984E007E56F6 /* jared-erondu-8130.jpg */; };
 		568A026B1FBB984E007E56F6 /* jared-erondu-8130.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568A02681FBB984E007E56F6 /* jared-erondu-8130.jpg */; };
-		56A762F71FD8AD3E0006E9EA /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A762F61FD8AD3E0006E9EA /* Images-2.xcassets */; };
 		56A763C71FD8B3D80006E9EA /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763B21FD8B3D60006E9EA /* Icon-App-76x76@2x.png */; };
 		56A763C81FD8B3D80006E9EA /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763B21FD8B3D60006E9EA /* Icon-App-76x76@2x.png */; };
 		56A763C91FD8B3D80006E9EA /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763B21FD8B3D60006E9EA /* Icon-App-76x76@2x.png */; };
@@ -89,9 +88,7 @@
 		56A764031FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763C61FD8B3D80006E9EA /* Icon-App-29x29@1x.png */; };
 		56A764041FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763C61FD8B3D80006E9EA /* Icon-App-29x29@1x.png */; };
 		56A764051FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A763C61FD8B3D80006E9EA /* Icon-App-29x29@1x.png */; };
-		56A764071FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A764061FD8B4F30006E9EA /* Icon-App-60x60@3x.png */; };
-		56A764081FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A764061FD8B4F30006E9EA /* Icon-App-60x60@3x.png */; };
-		56A764091FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A764061FD8B4F30006E9EA /* Icon-App-60x60@3x.png */; };
+		56A7640B1FD8B99E0006E9EA /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A7640A1FD8B99E0006E9EA /* Images-2.xcassets */; };
 		56E9359F1FD31CD50000A76A /* TableViewControllerPlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E9359E1FD31CD50000A76A /* TableViewControllerPlaces.m */; };
 		56E935A71FD320A80000A76A /* ViewControllerMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E935A61FD320A80000A76A /* ViewControllerMaps.m */; };
 		56E935A81FD320A80000A76A /* ViewControllerMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E935A61FD320A80000A76A /* ViewControllerMaps.m */; };
@@ -144,7 +141,6 @@
 		568A024A1FBB55E1007E56F6 /* City_GuideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_GuideUITests.m; sourceTree = "<group>"; };
 		568A024C1FBB55E1007E56F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568A02681FBB984E007E56F6 /* jared-erondu-8130.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jared-erondu-8130.jpg"; sourceTree = "<group>"; };
-		56A762F61FD8AD3E0006E9EA /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		56A763B21FD8B3D60006E9EA /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
 		56A763B31FD8B3D60006E9EA /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
 		56A763B41FD8B3D60006E9EA /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
@@ -166,7 +162,7 @@
 		56A763C41FD8B3D80006E9EA /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
 		56A763C51FD8B3D80006E9EA /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
 		56A763C61FD8B3D80006E9EA /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
-		56A764061FD8B4F30006E9EA /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "../../../../../../.Trash/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		56A7640A1FD8B99E0006E9EA /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		56E9359D1FD31CD50000A76A /* TableViewControllerPlaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewControllerPlaces.h; sourceTree = "<group>"; };
 		56E9359E1FD31CD50000A76A /* TableViewControllerPlaces.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerPlaces.m; sourceTree = "<group>"; };
 		56E935A51FD320A80000A76A /* ViewControllerMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerMaps.h; sourceTree = "<group>"; };
@@ -258,7 +254,7 @@
 				568A02341FBB55E1007E56F6 /* Info.plist */,
 				568A02351FBB55E1007E56F6 /* main.m */,
 				564210041FD89A4F00C6FA83 /* Pictures */,
-				56A762F61FD8AD3E0006E9EA /* Images-2.xcassets */,
+				56A7640A1FD8B99E0006E9EA /* Images-2.xcassets */,
 			);
 			path = "City Guide";
 			sourceTree = "<group>";
@@ -317,7 +313,6 @@
 				56A763BF1FD8B3D70006E9EA /* Icon-App-83.5x83.5@2x.png */,
 				56A763B31FD8B3D60006E9EA /* Icon-Small-50x50@1x.png */,
 				56A763B61FD8B3D70006E9EA /* Icon-Small-50x50@2x.png */,
-				56A764061FD8B4F30006E9EA /* Icon-App-60x60@3x.png */,
 			);
 			name = icon;
 			path = icon2;
@@ -465,15 +460,14 @@
 				56A763CD1FD8B3D80006E9EA /* Icon-App-57x57@1x.png in Resources */,
 				56A763E21FD8B3D80006E9EA /* Icon-App-29x29@2x.png in Resources */,
 				56A763FD1FD8B3D80006E9EA /* Icon-App-60x60@2x.png in Resources */,
-				56A762F71FD8AD3E0006E9EA /* Images-2.xcassets in Resources */,
 				56A763F71FD8B3D80006E9EA /* Icon-App-72x72@2x.png in Resources */,
 				56A763D61FD8B3D80006E9EA /* Icon-App-29x29@3x.png in Resources */,
 				56A763F11FD8B3D80006E9EA /* Icon-App-20x20@2x.png in Resources */,
-				56A764071FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */,
 				56A764001FD8B3D80006E9EA /* Icon-App-60x60@1x.png in Resources */,
 				56A763F41FD8B3D80006E9EA /* Icon-App-20x20@1x.png in Resources */,
 				56420FF71FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 				56A763D91FD8B3D80006E9EA /* Icon-App-76x76@1x.png in Resources */,
+				56A7640B1FD8B99E0006E9EA /* Images-2.xcassets in Resources */,
 				56A763DF1FD8B3D80006E9EA /* Icon-App-20x20@3x.png in Resources */,
 				56A763FA1FD8B3D80006E9EA /* Icon-App-57x57@2x.png in Resources */,
 				56A764031FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */,
@@ -502,7 +496,6 @@
 				56A763DD1FD8B3D80006E9EA /* Icon-App-76x76@3x.png in Resources */,
 				56A763EC1FD8B3D80006E9EA /* Icon-App-40x40@2x.png in Resources */,
 				56A763E61FD8B3D80006E9EA /* Icon-App-72x72@1x.png in Resources */,
-				56A764081FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */,
 				56A764041FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */,
 				56420FF81FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 				56A763CB1FD8B3D80006E9EA /* Icon-Small-50x50@1x.png in Resources */,
@@ -533,7 +526,6 @@
 				56A763DE1FD8B3D80006E9EA /* Icon-App-76x76@3x.png in Resources */,
 				56A763ED1FD8B3D80006E9EA /* Icon-App-40x40@2x.png in Resources */,
 				56A763E71FD8B3D80006E9EA /* Icon-App-72x72@1x.png in Resources */,
-				56A764091FD8B4F30006E9EA /* Icon-App-60x60@3x.png in Resources */,
 				56A764051FD8B3D80006E9EA /* Icon-App-29x29@1x.png in Resources */,
 				56420FF91FD84E5800C6FA83 /* sasha-instagram-com-sanfrancisco-99540.jpg in Resources */,
 				56A763CC1FD8B3D80006E9EA /* Icon-Small-50x50@1x.png in Resources */,
